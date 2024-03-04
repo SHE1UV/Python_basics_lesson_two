@@ -14,7 +14,7 @@ Python3 должен быть уже установлен. Затем испол
 pip install -r requirements.txt
 ```
 
-Скачайте исполняемый файл ChromeDriver [здесь](https://chromedriver.chromium.org/) и замените path_driver в коде на правильный путь к исполняемому файлу.
+Скачайте исполняемый файл ChromeDriver [здесь](https://chromedriver.chromium.org/) и замените `path_driver` в коде на правильный путь к исполняемому файлу.
 
 ## Запуск
 
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-Скрипт откроет браузер Chrome, перейдет на веб-сайт FlashScore, извлечет данные для завершенных матчей и сохранит информацию в файл Excel с именем output_data.xlsx.
+Скрипт откроет браузер Chrome, перейдет на веб-сайт FlashScore, извлечет данные для завершенных матчей и сохранит информацию в файл Excel с именем `output_data.xlsx`.
 
 При необходимости внесите изменения в код согласно вашим требованиям или модификациям.
 
